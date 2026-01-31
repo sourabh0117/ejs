@@ -1,0 +1,46 @@
+{
+  "cats": {
+    "name": "cats",
+    "followers": 25000,
+    "following": 5,
+    "posts": [
+      {
+        "image": "https://2.bp.blogspot.com/-3cbXaJoGm50/UsfFu_kyeAI/AAAAAAAAAIA/LwU8hgWBtBE/s1600/little-cute-cat.jpg",
+        "likes": 200,
+        "comments": 17
+      },
+      {
+        "image": "https://tse2.mm.bing.net/th/id/OIP.iKqF9w8UNHMJDiJ_CHUBQwHaE8?pid=Api&P=0&h=180",
+        "likes": 312,
+        "comments": 19
+      },
+      {
+        "image": "https://tse2.mm.bing.net/th/id/OIP.LMPJXGLjm9kwzk-8w6tf8gHaFz?pid=Api&P=0&h=180",
+        "likes": 106,
+        "comments": 17
+      }
+    ]
+  },
+  "dogs": {
+    "name": "dogs",
+    "followers": 75000,
+    "following": 150,
+    "posts": [
+      {
+        "image": "https://tse3.mm.bing.net/th/id/OIP.mZoI3QWFeUxAtYdu9QzeAwHaE8?pid=Api&P=0&h=180",
+        "likes": 3000,
+        "comments": 41
+      },
+      {
+        "image": "https://paradepets.com/.image/w_3840,q_auto:good,c_fill,ar_1:1/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.jpg",
+        "likes": 2500,
+        "comments": 32
+      },
+      {
+        "image": "https://www.dogster.com/wp-content/uploads/2024/03/Short-Haired-Border-Collie_Eudyptula-Shutterstock.jpg",
+        "likes": 500,
+        "comments": 6
+      }
+    ]
+  }
+}
