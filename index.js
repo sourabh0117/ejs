@@ -30,8 +30,14 @@ app.get("/ig/:username",  (req, res) =>{
     let { username } = req.params;
     const instadata = require("./data.json");//database se date
     const data = instadata[username];
-    console.log(data);
-    res.render("instagram.ejs", {data});
+    if(data){
+        console.log(data);
+        res.render("instagram.ejs", {data});
+    }
+    else{
+        res.render("error.ejs")
+    }
+    
 });
 
 
